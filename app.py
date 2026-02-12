@@ -74,6 +74,25 @@ with st.sidebar:
 # BHM (Bazaviy Hisoblash Miqdori)
 BHM = 412000  # 2025 yil uchun BHM
 
+def calculate_fee(value):
+        if value <= 10000:
+            return 1 * BHM
+        elif value <= 20000:
+            return 1.5 * BHM
+        elif value <= 40000:
+            return 2.5 * BHM
+        elif value <= 60000:
+            return 4 * BHM
+        elif value <= 100000:
+            return 7 * BHM
+        elif value <= 200000:
+            return 10 * BHM
+        elif value <= 500000:
+            return 15 * BHM
+        elif value <= 1000000:
+            return 20 * BHM
+        else:
+            return 25 * BHM
 # Ma'lumotlar bazasi
 tariff_data = {
     "Bojxona qiymati (AQSh dollari)": [
@@ -357,25 +376,7 @@ elif menu == "📈 Grafik tahlil":
     values = [5000, 15000, 30000, 50000, 80000, 150000, 350000, 750000, 1500000]
     fees = [calculate_fee(v) for v in values]
     
-    def calculate_fee(value):
-        if value <= 10000:
-            return 1 * BHM
-        elif value <= 20000:
-            return 1.5 * BHM
-        elif value <= 40000:
-            return 2.5 * BHM
-        elif value <= 60000:
-            return 4 * BHM
-        elif value <= 100000:
-            return 7 * BHM
-        elif value <= 200000:
-            return 10 * BHM
-        elif value <= 500000:
-            return 15 * BHM
-        elif value <= 1000000:
-            return 20 * BHM
-        else:
-            return 25 * BHM
+    
     
     col1, col2 = st.columns(2)
     
