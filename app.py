@@ -107,9 +107,18 @@ tariff_data = {
         "1,000,000 va undan ortiq"
     ],
     "Stavka (BHM)": [1, 1.5, 2.5, 4, 7, 10, 15, 20, 25],
-    "Yig'im (so'm)": [
-        340000, 510000, 850000, 1360000, 2380000, 3400000, 5100000, 6800000, 8500000
-    ]
+"Yig'im (so'm)": [
+    412000,
+    618000,
+    1030000,
+    1648000,
+    2884000,
+    4120000,
+    6180000,
+    8240000,
+    10300000
+]
+
 }
 
 other_fees = {
@@ -127,21 +136,32 @@ other_fees = {
         "Intellektual mulk reyestriga kiritish"
     ],
     "Stavka": [
-        "BHM 25%",
-        "BHM 2.5 baravari",
-        "BHM 25%",
-        "BHM 2%",
-        "BHM 25%",
-        "BHM 25%",
-        "BHM 3%",
-        "BHM 4%",
-        "BHM 2 baravari",
-        "BHM 5 baravari",
-        "BHM 1 baravari"
-    ],
-    "Yig'im (so'm)": [
-        85000, 850000, 85000, 6800, 85000, 85000, 10200, 13600, 680000, 1700000, 340000
-    ]
+    "BHM 25%",
+    "BHM 2.5 baravari",
+    "BHM 25%",
+    "BHM 2%",
+    "BHM 25%",
+    "BHM 25%",
+    "BHM 3%",
+    "BHM 4%",
+    "BHM 2 baravari",
+    "BHM 5 baravari",
+    "BHM 1 baravari"
+],
+"Yig'im (so'm)": [
+    103000,
+    1030000,
+    103000,
+    8240,
+    103000,
+    103000,
+    12360,
+    16480,
+    824000,
+    2060000,
+    412000
+]
+
 }
 
 # ASOSIY MA'LUMOT BO'LIMI
@@ -461,7 +481,7 @@ else:
             st.markdown("""
             **1. BHM nima?**
             - BHM (Bazaviy Hisoblash Miqdori) - bu bojxona yig'imlarini hisoblash uchun asosiy miqdor
-            - 2025 yilda BHM = 340,000 so'm
+            - 2025 yilda BHM = 412,000 so'm
             
             **2. Dastlabki deklaratsiya nima?**
             - Bu tovarni birinchi marta rasmiylashtirish
