@@ -72,7 +72,7 @@ with st.sidebar:
     )
 
 # BHM (Bazaviy Hisoblash Miqdori)
-BHM = 340000  # 2025 yil uchun BHM
+BHM = 412000  # 2025 yil uchun BHM
 
 # Ma'lumotlar bazasi
 tariff_data = {
